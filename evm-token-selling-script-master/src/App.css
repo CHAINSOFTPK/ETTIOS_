@@ -1,0 +1,29 @@
+
+/* Custom styles for animations and specific adjustments */
+.App-logo {
+  @apply h-40vmin pointer-events-none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  @apply bg-gray-800 min-h-screen flex flex-col items-center justify-center text-white;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  @apply text-blue-400;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
